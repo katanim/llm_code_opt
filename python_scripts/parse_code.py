@@ -20,7 +20,6 @@ def extract_function_info(src: bytes, fn_node) -> Dict[str, Any]:
         elif child.type == "compound_statement":
             body = src[child.start_byte:child.end_byte].decode("utf-8")
     return {
-        
         "function_declarator": function_declarator,
         "body": body,
         "output type": output_type,

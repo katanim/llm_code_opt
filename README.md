@@ -5,6 +5,15 @@ C++ code optimization using LLMs
 - WSL
 - cmake
 - python3.12
+- Gemini API Key
+
+# Set you API Key
+Get an API key from: [text](https://aistudio.google.com/)
+Setup your environment
+```bash
+export GEMINI_API_KEY="YOUR_API_KEY"
+```
+
 
 # Build C++ project
 ```bash
