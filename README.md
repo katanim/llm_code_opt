@@ -8,7 +8,7 @@ C++ code optimization using LLMs
 - Gemini API Key
 
 # Set you API Key
-Get an API key from: [text](https://aistudio.google.com/)
+Get an API key from: [Google AI Studio](https://aistudio.google.com/)
 Setup your environment
 ```bash
 export GEMINI_API_KEY="YOUR_API_KEY"
@@ -23,7 +23,7 @@ cmake ..
 make
 ```
 
-# Setup Python environent:
+# Setup Python environment:
 ```bash
 git clone https://github.com/katanim/llm_code_opt.git​
 cd <llm_code_opt>
