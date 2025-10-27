@@ -9,6 +9,7 @@ C++ code optimization using LLMs
 
 # Set you API Key
 Get an API key from: [Google AI Studio](https://aistudio.google.com/)
+
 Setup your environment
 ```bash
 export GEMINI_API_KEY="YOUR_API_KEY"
