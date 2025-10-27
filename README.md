@@ -15,6 +15,15 @@ Setup your environment
 export GEMINI_API_KEY="YOUR_API_KEY"
 ```
 
+# Setup Python environment:
+```bash
+git clone https://github.com/katanim/llm_code_opt.git​
+cd llm_code_opt
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install --upgrade setuptools
+pip install -r requirements.txt
+```
 
 # Build C++ project
 ```bash
@@ -24,11 +33,4 @@ cmake ..
 make
 ```
 
-# Setup Python environment:
-```bash
-git clone https://github.com/katanim/llm_code_opt.git​
-cd llm_code_opt
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
+
