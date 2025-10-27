@@ -1,5 +1,6 @@
 from google import genai
 import json
+import argparse
 
 
 def test_api_call(client):
@@ -68,8 +69,11 @@ def provide_test_cases(client, input_json_path):
 
 
 def main():
+    parser = argparse.ArgumentParser(description='Process code optimization tasks')
+    parser.add_argument('--input', type=str, required=True, help='Path to input JSON file')
+    args = parser.parse_args()
     client = genai.Client()
-    response = print_function_body(client, '/home/amin/projects/llm_code_opt/out.json')
+    response = print_function_body(client, args.input)
     print(response)
 
 if __name__ == "__main__":
